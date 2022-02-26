@@ -12,8 +12,8 @@ l = len(email_list)
 #occurance
 occ = []
 for i in range (l):
-    c = 1
-    for j in range (i+1, l):
+    c = 0
+    for j in range (l):
         if email_list[i] == email_list[j]:
             c+=1
     occ.insert(i, c)
